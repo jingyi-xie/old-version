@@ -6,15 +6,13 @@ weight: 3
 ---
 
 # **About Me**
-
-Hi I am **{{ site.author.name }}** :wave:,<br>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-
-<div class="row">
-{% include about/skills.html title="Programming Skills" source=site.data.programming-skills %}
-{% include about/skills.html title="Other Skills" source=site.data.other-skills %}
-</div>
+<br>
+Hi I am **{{ site.author.name }}** :wave:, a first-year ECE master student at Duke University. <br><br>
+:point_right: I once interned at the Corporate Technology of SIEMENS as a Research and Development Intern. <br><br>
+With a specialized track in software engineer :computer: , I have deep computer science understanding in `data structure and algorithm`, as well as experience in `C++ and Java OO design`, `system programming (concurrency, synchronization, TCP socket)` and `web-app development`. <br><br>
+I have good time management and communication skills and I am :satisfied: to work in a deeply collaborative environment.
 
 <div class="row">
-{% include about/timeline.html %}
+{% include about/skills.html title="Languages" source=site.data.language %}
+{% include about/skills.html title="Frameworks & Utilities" source=site.data.framework %}
 </div>

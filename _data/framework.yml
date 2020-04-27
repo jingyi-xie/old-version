@@ -1,0 +1,23 @@
+- name: Django
+  percentage: 80
+  color: 
+
+- name: JavaFX
+  percentage: 80
+  color: 
+
+- name: Docker
+  percentage: 70
+  color: dark
+
+- name: CI/CD
+  percentage: 70
+  color: dark
+
+- name: Linux
+  percentage: 70
+  color: dark
+
+- name: Emacs
+  percentage: 70
+  color: dark
