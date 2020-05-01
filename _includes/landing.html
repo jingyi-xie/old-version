@@ -11,8 +11,15 @@
     </div>
     <h3>Jingyi Xie </h3>
     <p>{{ site.description }}</p>
-    {% include elements/button.html link="https://jingyi-xie.github.io/assets/resume.pdf" text="Download CV" %}
-    {% include elements/button.html link="https://github.com/jingyi-xie" text="GitHub" %}
+    {% comment %} {% include elements/button.html link="https://jingyi-xie.github.io/assets/resume.pdf" text="Download CV" %} {% endcomment %}
+    <a type="button" class="btn btn-outline-primary" href="https://jingyi-xie.github.io/assets/resume.pdf">
+      <i class="fas fa-download"></i> Download CV
+    </a>
+    &ensp;
+    <a type="button" class="btn btn-outline-primary" href="https://github.com/jingyi-xie">
+      <i class="fab fa-github"></i> GitHub
+    </a>
+
 
     <br><br>
   </div>
