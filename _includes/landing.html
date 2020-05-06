@@ -1,52 +1,63 @@
-<br><br>
+<br /><br />
 <div class="row justify-content-center align-items-center p-4">
   <div class="col-lg-4 col-md-6 text-center mt-4">
-<div class="col">
-    <!-- Fine Circle Responsive Image -->
-    <div id="container" class="my-2">
-      <div id="dummy"></div>
-      <div id="element">
-        <img src="{{ site.author.image }}" alt="{{ site.title }}" class="circle-image wow animated zoomIn" data-wow-delay=".1s">
+    <div class="col">
+      <!-- Fine Circle Responsive Image -->
+      <div id="container" class="my-2">
+        <div id="dummy"></div>
+        <div id="element">
+          <img
+            src="{{ site.author.image }}"
+            alt="{{ site.title }}"
+            class="circle-image wow animated zoomIn"
+            data-wow-delay=".1s"
+          />
+        </div>
       </div>
+      <h3>Jingyi Xie</h3>
+      <p>{{ site.description }}</p>
+      <a
+        type="button"
+        class="btn btn-outline-primary"
+        target="_blank"
+        href="https://jingyi-xie.github.io/assets/resume.pdf"
+      >
+        <i class="fas fa-download"></i> Download CV
+      </a>
+      &ensp;
+      <a
+        type="button"
+        class="btn btn-outline-primary"
+        target="_blank"
+        href="https://github.com/jingyi-xie"
+      >
+        <i class="fab fa-github"></i> My GitHub
+      </a>
+
+      <br /><br />
     </div>
-    <h3>Jingyi Xie </h3>
-    <p>{{ site.description }}</p>
-    {% comment %} {% include elements/button.html link="https://jingyi-xie.github.io/assets/resume.pdf" text="Download CV" %} {% endcomment %}
-    <a type="button" class="btn btn-outline-primary" href="https://jingyi-xie.github.io/assets/resume.pdf">
-      <i class="fas fa-download"></i> Download CV
-    </a>
-    &ensp;
-    <a type="button" class="btn btn-outline-primary" href="https://github.com/jingyi-xie">
-      <i class="fab fa-github"></i> My GitHub
-    </a>
-
-
-    <br><br>
-  </div>
-
   </div>
 
   <div class="col">
-
     <div class="container">
-        <div class="timeline-body">       
-            <div class="timeline-item">
-                <div class="content">
-                <h2>SIEMENS</h2>
-                <h6 class="date">Jun 2018 - Aug 2018</h6>
-                Research & Development Intern @ Corporate Technology
-                </div>
-                <div class="timeline-item">
-                <div class="content">
-                <h2>Duke University</h2>
-                <h6 class="date">2019 — present</h6>
-                Electrical & Computer Engineering, Master of Science<br>
-                Software Engineering Track<br>
-                Major GPA: 3.9/4.0. ECE Merit Scholarship
-                </div>
+      <div class="timeline-body">
+        <div class="timeline-item">
+          <div class="content">
+            <h2>SIEMENS</h2>
+            <h6 class="date">Jun 2018 - Aug 2018</h6>
+            Research & Development Intern @ Corporate Technology
+          </div>
+          <div class="timeline-item">
+            <div class="content">
+              <h2>Duke University</h2>
+              <h6 class="date">2019 — present</h6>
+              Electrical & Computer Engineering, Master of Science<br />
+              Software Engineering Track<br />
+              Major GPA: 3.9/4.0. ECE Merit Scholarship
+            </div>
+          </div>
         </div>
+      </div>
     </div>
-  </div>
-
   </div>
 </div>
