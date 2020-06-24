@@ -7,9 +7,7 @@ weight: 3
 
 # **About Me**
 
----
 <br>
-Hi I am **{{ site.author.name }}** :wave:, a first-year ECE master student at Duke University. <br><br>
-:point_right: I once interned at the Corporate Technology of SIEMENS as a Research and Development Intern. <br><br>
-With a specialized track in software engineer :computer: , I have deep computer science understanding in `data structure and algorithm`, as well as experience in `C++ and Java OO design`, `system programming (concurrency, synchronization, TCP socket)` and `web-app development`. <br><br>
+Hi I'm **{{ site.author.name }}** :wave:, a rising second-year ECE master student at Duke University. <br><br>
+:point_right: As a software engineer, I interned at Siemens (Corporate Technology) and an air force startup. I have deep computer science understanding in `data structure & algorithm`, as well as experience in `web development`, `C++ & Java OO design`,  and `system programming (concurrency, synchronization, TCP socket)`. <br><br>
 I have good time management and communication skills and I am :satisfied: to work in a deeply collaborative environment.
