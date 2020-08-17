@@ -1,36 +1,33 @@
 ### Site Settings ###
-title               : Home
-description         : >-
-                    Software Engineer
-baseurl             : "/"                     # Change to empty quotes if you are hosting your site at <your-username>.github.io directly
-repository          : jingyi-xie/jingyi-xie.github.io     # Change to <your-username>/<your-username>.github.io (or remove it if you don't need remote projects)
-remote_theme        : YoussefRaafatNasry/portfolYOU
-
+title: Home
+description: >-
+  Software Engineer
+baseurl: "/" # Change to empty quotes if you are hosting your site at <your-username>.github.io directly
+repository: jingyi-xie/jingyi-xie.github.io # Change to <your-username>/<your-username>.github.io (or remove it if you don't need remote projects)
+remote_theme: YoussefRaafatNasry/portfolYOU
 
 ### Plugins ###
 plugins:
   - jemoji
 
-
 ### Navbar Settings ###
-nav_exclude:                                            # The following paths are excluded from navbar
+nav_exclude: # The following paths are excluded from navbar
   - pages/tags.html
   - pages/404.html
   - pages/index.md
 
-
 ### Author Info ###
 author:
-  name              : Jingyi Xie
-  image             : https://i.ibb.co/GdG4j2g/profile.jpg
+  name: Jingyi Xie
+  image: https://i.ibb.co/GdG4j2g/profile.jpg
   # behance           : jingyi-xie
-# dribbble          : your_username
-  email             : jingyi.xie@duke.edu
+  # dribbble          : your_username
+  email: jingyi.xie@duke.edu
   # facebook          : your_username
-  github            : jingyi-xie
-# gitlab            : your_username
-# instagram         : your_username
-  linkedin          : jingyi-xie-79141a185
+  github: jingyi-xie
+  # gitlab            : your_username
+  # instagram         : your_username
+  linkedin: jingyi-xie-79141a185
   # medium            : your_username
 # soundcloud        : your_username
 # spotify           : your_username
@@ -41,17 +38,14 @@ author:
 # vimeo             : your_username
 # youtube           : your_channel_name
 
-
 ### Posts ###
-permalink: /blog/:title
-
+#permalink: /blog/:title
 
 ### Collections ###
 collections:
   projects:
     output: true
     permalink: /projects/:name
-
 
 ### Defaults for collections ###
 defaults:
